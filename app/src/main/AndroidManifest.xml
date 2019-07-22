@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="osiac.ase.ro.medcom">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.LoginActivity" />
+        <activity android:name=".Activities.RegisterScreenActivity" />
+        <activity android:name=".Activities.AboutActivity" />
+        <activity android:name=".Activities.PatientPageActivity" />
+        <activity android:name=".Activities.DoctorPageActivity" />
+        <activity android:name=".Activities.ManageAccountActivity" />
+        <activity android:name=".Activities.UsageInfoActivity" />
+        <activity android:name=".Activities.PatientListActivity"
+            android:label=""
+            android:theme="@style/Theme.AppTheme2"/>
+        <activity android:name=".Activities.AddDocumentsActivity" />
+        <activity android:name=".Activities.ViewDocumentsActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".Activities.DoctorCalendar" />
+        <activity android:name=".Activities.PatientCalendar" />
+        <activity android:name=".Activities.PatientViewAppointments" />
+        <activity android:name=".Activities.PatientViewOwnAppointments" />
+        <activity android:name=".Activities.DoctorChatActivity" />
+        <activity android:name=".Activities.DoctorMessageActivity" />
+        <activity android:name=".Activities.PatientMessageActivity"></activity>
+    </application>
+
+</manifest>

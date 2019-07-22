@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">MedCom</string>
+    <string name="mainLogIn">LOG-IN</string>
+    <string name="mainRegister">REGISTER</string>
+    <string name="mainAbout">ABOUT</string>
+    <string name="email">Your e-mail address</string>
+    <string name="register">Register</string>
+    <string name="cancel">Cancel</string>
+    <string name="name">Your full name</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirmation for your password</string>
+    <string name="inputHealthSecurity">The code on your health card</string>
+    <string name="inputDoctorId">The doctor access code </string>
+    <string name="regNameError">The name should be longer than 5 characters!</string>
+    <string name="regPassError">The password should be longer than 5 characters!</string>
+    <string name="regPassConfirmError">The passwords do not match!</string>
+    <string name="regEmailError">The email is not valid!</string>
+    <string name="regDoctorIdError">The doctor id is not valid!</string>
+    <string name="regHealthCodeError">The code on your health card is 20 characters long!</string>
+    <string name="regAcc1">"The account with the following details has been created:\n"</string>;
+    <string name="regInputErrors">Invalid input,please check the error signs!</string>
+    <string name="inputRegTv">In order for us to make your account,\nplease fill the following form.</string>
+    <string name="fireBaseAuthError">Fire Base Authentication error,\nThe email exists in the database!</string>
+    <string name="fireBaseAuthSuccess">Account successfully created!\nCheck your email in order to activate your account.</string>
+    <string name="authEmailError">Email not sent!</string>
+    <string name="logLogIn">LOG-IN</string>
+    <string name="logBack">BACK</string>
+    <string name="logRbDoctor">Doctor</string>
+    <string name="logRbPatient">Patient</string>
+    <string name="logInputErrors">Invalid credentials,please check the error signs!</string>
+    <string name="logEmailError">The format of the email address seems to be incorrect!</string>
+    <string name="logPassError">The password is too short!</string>
+    <string name="logRgSelectOnlyOne">Please select only one account option!</string>
+    <string name="logRgSelectOne">Please select an account option!</string>
+    <string name="successfullySignedIn">Successfully signed in!</string>
+    <string name="successfullySignedOut">Successfully signed out!</string>
+    <string name="MenuSignOut">SIGN-OUT</string>
+    <string name="testttt">Only ONCE!</string>
+    <string name="cevaaa1">DOCTOR PERSONAL PAGE</string>
+    <string name="cevaaa2">PATIENT PERSONAL PAGE</string>
+    <string name="resChangePass">Change Password</string>
+    <string name="resChangeEmail">Change Email Address</string>
+    <string name="resUsageI">Usage Instructions</string>
+    <string name="resDeleteAccount">Delete Account</string>
+    <string name="resUsageInfoText">“MedCom” app was designed as a mobile PRM solution that creates a better channel of communication and centralization.
+        \n\n Patient relationship management, in the context of  IT, refers to technologies that help medical providers relate to their patients in the same way that other kinds of businesses relate to their customers.
+        \n\n PRM represents a subsidiary of the classic customer relationship management (CRM) concept that addresses the medical and sanitary field.
+        \n\n Patient relationship management systems are created in order to help institutions from the specific domain to work more efficiently, improve the quality of patient services, and even complement other digital medical records.
+        \n\n The key trait of “MedCom” dwells in the fact that it represents a PRM with a twist of duality. The app not only allows the doctor to manage its subjects but it also creates a pathway for the patient to self-mange in accordance to the actions of his doctor.
+</string>
+
+    <string name="bttnManageAccount">Manage Account</string>
+    <string name="passChangeRes">Here you can change your password</string>
+    <string name="changePassMessageRes">Please enter a new password bellow!</string>
+    <string name="changePassTitleRes">      PASSWORD CHANGER</string>
+    <string name="cancelPassRes">Activity canceled</string>
+    <string name="passChangedRes">Password Changed!</string>
+    <string name="errorRes">ERROR</string>
+    <string name="passsssres">Password is updated!</string>
+    <string name="passFail">Please check the error marks!</string>
+    <string name="oldPassError">The old password is wrong!</string>
+    <string name="newPassError">The new password is too short!</string>
+    <string name="ViewPatRes">View patient list</string>
+    <string name="tvHealthSec">Health security code:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="resSelect">Select an appointment interval from the following list.</string>
+
+    <string name="usageInfo">
+        \n     Chat Feature:
+        \n\n Here, the developer aims to offer an accessible and reliable path of communication. This is done by giving users the possibility to connect on a secure and dedicated direct message platform that haves a familiar and user-friendly design found commonly in modern chatting programs like Facebook or WhatsApp.
+        \n\n Explained plainly, the individual that is using the doctor module can openly chat with any person that is legally under his care and currently haves the app installed. Using the help of a contact list the doctor selects any of his registered patients and is sent to the common messaging user interface.
+        \n\n A registered user of the patient module can use only the messaging UI to communicate with the doctor assigned to him by the National Sanitary System. The app asks for a specific code unique to each doctor when creating a new patient account. If the patient trying to register doesn’t inserts a valid code the platform will notify him of the error and ask him to enter a valid code.
+        \n\n   Calendar Feature:
+        \n\n Through this feature, the application aims to give the doctor and its patients an orderly manner in which they can create, delete and keep track of previous and future appointments.
+        \n\n Briefly presented, a doctor, once logged to the app can use the specific calendar UI to set up new appointments during certain time intervals. The user must select a date and a time interval from that day, after confirmation a newly created appointment object that haves the field “patientEmail” filled with null is created and the selected date turns green in the calendar item view.
+        \n\n If a patient module user opens the Patient calendar UI and sees a date represented on the calendar with the color green, this means he can click on that date and book a time interval when his doctor is available to meet in that selected day. After a time-interval is booked by a patient that interval disappears from the available list. If all appointments from a certain day in the widget get booked by patients the color of the calendar item turns gray and unclickable.
+        \n\n   Document List Feature:
+        \n\n Finally, with this feature, the system offers a way of storing and accessing important medical documents. The saved documents are kept with the help of Firebase Storage and Real-Time database. The doctor needs to select one patient from a list and to add the desired document to that user’s personal storage through another UI that haves the sole purpose of uploading documents. If the selected document is successfully loaded into the database the patient now haves the possibility to see or download it in real time.
+        \n\n The doctor module implements a way for the user to see documents loaded into the cloud of each patient that is registered under his care. In opposition, the patient module of this feature offers users access only to personal files.
+
+
+    </string>
+
+
+</resources>

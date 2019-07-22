@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/baloo</item>
+        <item>@font/michroma</item>
+        <item>@font/montserrat_subrayada</item>
+        <item>@font/poller_one</item>
+        <item>@font/prosto_one</item>
+        <item>@font/questrial</item>
+        <item>@font/unlock</item>
+        <item>@font/wendy_one</item>
+    </array>
+</resources>

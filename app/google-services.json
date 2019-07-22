@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "682768944251",
+    "firebase_url": "https://medcom-2969.firebaseio.com",
+    "project_id": "medcom-2969",
+    "storage_bucket": "medcom-2969.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682768944251:android:0d466031cda629d2",
+        "android_client_info": {
+          "package_name": "osiac.ase.ro.medcom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682768944251-7f1pqrbm8fqona05hgi534vij9ea79u3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "osiac.ase.ro.medcom",
+            "certificate_hash": "1127327b32e2ec2d18b96a624bf94a4b54490e07"
+          }
+        },
+        {
+          "client_id": "682768944251-mjn8iot20sgsin7id0t72hvh012ao32i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ_CD0et5as9IvQu_LSyCzh6EotRTGrmQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682768944251-mjn8iot20sgsin7id0t72hvh012ao32i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
